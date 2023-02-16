@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="">
+    <title>BliblioMesa</title>
+    <link rel="shortcut icon" href="libreria-digital.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="cont">
+            <form action="">
+                <div class="tit">
+                <h4>¡Registra tu libro aca!</h4>
+                </div>
+                <div>
+                <img src="libros.png" alt="">
+                </div>
+                
+                <label for="nombre">Nombre del autor</label>
+                <input type="text" name="nombre" placeholder="Ingresa el nombre del autor" required pattern="[A-Za-z ]+" minlength="2" maxlength="30" title="Solo letras">	
+                           
+                <label for="apellido">Editorial</label>
+                <input type="text" name="apellido" placeholder="Ingresa la editorial" required pattern="[A-Za-z ]+" minlength="2" maxlength="30" title="Solo letras">
+                            
+                <label for="correo">Tiempo de uso</label>
+                <input type="text" name="uso" placeholder="Ingrasa el tiempo de uso" required pattern="[A-Za-z ]+" minlength="2" maxlength="30" title="Solo letras">
+                         
+                <label for="telefono">Titulo del libro</label>
+                <input type="text" name="titulo" placeholder="ingresa el titulo del libro" required pattern="[A-Za-z ]+" minlength="2" maxlength="30" title="Solo letras">
+                                                       
+                <label for="interes">Genero</label>
+                    <select name="interes" required>
+                        <option value="Primero"> Accion </option>
+                        <option value="Segundo"> Aventura </option>
+                        <option value="Tercero"> Drama </option>
+                        <option value="Cuarto"> Gotico </option>
+                    </select>
+                         
+                           <input class="boton" type="submit" name="" value="REGISTRAR">
+                        
+        
+            </form>
+              
+    </div>
+    
+</body>
+</html>

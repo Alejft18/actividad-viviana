@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#main-container{
+    font-size: 0;
+}
+
+#left-container, #right-container{
+    display: inline-block;
+    vertical-align: top;
+    height: 100vh;
+    width: 50%;
+}
+
+#right-container{
+    background-color: #F4EAD5;
+    background-image: url(https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/5649/cow-head-clipart-md.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.container{
+    width: 400px;
+    margin: 90px auto;
+}
+

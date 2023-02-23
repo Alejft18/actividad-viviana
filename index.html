@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Biblioteca</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ramaraja&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="formulario">
+        <form>
+            <div class="form-img">
+                <img src="images/libro.png" alt="libro">
+                <h2>Registro Libros</h2>
+            </div>
+            <label>Titulo:</label>
+            <input type="text" placeholder="Ingrese el titulo del libro" pattern="[A-Za-z]+" title="Solo letras" required>
+
+            <label>Autor:</label>
+            <input type="text" placeholder="Ingrese el nombre del autor" pattern="[A-Za-z]+" title="Solo letras" required>
+
+            <label>Editorial:</label>
+            <input type="text" placeholder="Ingrese el nombre de la editorial" pattern="[A-Za-z]+" title="Solo letras" required>
+
+            <label>Fecha publicación:</label>
+            <input type="date" required>
+
+            <label>Género:</label>
+            <input type="text" placeholder="Ingrese el género del libro" pattern="[A-Za-z]+" title="Solo letras" required>
+
+            <label>Número de páginas:</label>
+            <input type="number" placeholder="Número de páginas" required>
+
+            <div class="boton">
+                <input type="submit" value="Enviar">
+            </div>
+
+            
+        </form>
+    </div>
 </body>
 </html>

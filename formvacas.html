@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formvacas.css">
+    <title>Registro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ramaraja&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <h1>VAQUI</h1>
+    </header>
+
+    <div class="formulario">
+        <div class="div-iz">
+            <form>
+                <div class="form-img">
+                    <h2>Registro de bovinos</h2>
+                </div>
+                <label>Raza:</label>
+                <input type="text" placeholder="Ingrese la raza del bovino" pattern="[A-Za-z]+" title="Solo letras" required>
+    
+                <label>Género:</label>
+                <input type="text" placeholder="Ingrese el género del bovino" pattern="[A-Za-z]+" title="Solo letras" required>
+    
+                <label>Fecha de nacimiento:</label>
+                <input type="date" required>
+            
+                <label>Procedencia</label>
+                <select name="#" id="#" required>
+                    <option value="">Seleccione una</option>
+                    <option value="1">De la Finca</option>
+                    <option value="2">De otra Finca</option>
+                </select>
+    
+                <div class="boton">
+                    <input type="submit"  id= "enviar" onclick="obtenerdatos()" value="Ingresar bovino">
+                </div>
+
+            </form>
+        </div>
+        
+        <div class="div-der">
+            <img src="images/vaca.png" alt="">
+            <h2>Lleva un mejor control <br> de tu ganado con vaqui</h2>
+        </div>
+    </div>
+
+    <script src="js/formvacas.js"></script>
+</body>
+</html>

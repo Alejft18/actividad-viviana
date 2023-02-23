@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Formulario registro Empleados</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">categorias</a></li>
+                <li><a href="#">Gestion</a></li>
+                <li><a href="#">PQRS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="contenedor">
+        <form id="formulario">
+            <p id="texto">Ingrese los siguientes datos</p>
+            <input placeholder="Documento" type="text" id="docuemnto" name="docuemnto" required>
+            <input placeholder="Nombre" type="text" id="nombre" name="nombre" required>
+            <input placeholder="Apellidos" type="text" id="apellidos" name="apellidos" required>
+            <input placeholder="Correro Electronico" type="email" id="email" name="email" required>
+            <input placeholder="Telefono" type="number" id="telefono" name="telefono" minlength="10" maxlength="10" required>
+            <input placeholder="Codigo de la finca" type="text" id="codigo" name="codigo" minlength="6" maxlength="6" required>
+            <input placeholder="Nueva contraseña" type="password" name="contraseña" id="contraseña" minlength="5" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>    
+	<script src="actividad/js/logico.js"></script>
+    
+</body>
+</html>
